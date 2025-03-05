@@ -23,8 +23,8 @@ public class M3PT4 {
         System.out.println(Arrays.toString(numbers));
 
         System.out.print("\nEnter Second Integer: ");
-        int SecondInt = scanner.nextInt();
-        numbers[1] = SecondInt;
+        int secondInt = scanner.nextInt();
+        numbers[1] = secondInt;
 
         System.out.println("\nModified Integer Array");
         System.out.print(Arrays.toString(numbers));
