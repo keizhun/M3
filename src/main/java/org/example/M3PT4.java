@@ -1,6 +1,8 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.Scanner;
+
 
 public class M3PT4 {
     public static void main(String[] args) {
@@ -13,11 +15,17 @@ public class M3PT4 {
         }
 
         // TASK 2
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("\n\nTask 2: ");
         int[] numbers = {43, 68, 12, 76, 23};
         System.out.println("Original Integer Array");
         System.out.println(Arrays.toString(numbers));
-        numbers[1] = 22;
+
+        System.out.print("\nEnter Second Integer: ");
+        int SecondInt = scanner.nextInt();
+        numbers[1] = SecondInt;
+
         System.out.println("\nModified Integer Array");
         System.out.print(Arrays.toString(numbers));
 
